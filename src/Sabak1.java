@@ -1,16 +1,24 @@
+import java.util.Scanner;
+
 public class Sabak1 {
 
 
     public static void main(String[] args) {
 
-        int height = 2;
-        int width = 5;
+        Scanner scanner = new Scanner(System.in);
 
-        byte b  =  127;
+        System.out.println(" height manin engiz");
+        int height = scanner.nextInt();
+
+        System.out.println(" width manin engiz");
+        int width = scanner.nextInt();
+
+        System.out.println("height manin " + height);
+        System.out.println("width manin " + width);
+
 
         int rectangleArea = height*width;
 
-        System.out.println(rectangleArea);
         System.out.println(rectangleArea);
 
 
