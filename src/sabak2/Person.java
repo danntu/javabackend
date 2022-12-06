@@ -5,7 +5,7 @@ public class Person {
     private int age;
 
     // 2 Constructor
-    protected Person(){
+   protected Person(){
         age = 0;
     }
 
