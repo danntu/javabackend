@@ -23,7 +23,7 @@ public class A extends AccessExample {
     public static void main(String[] args) {
         A a  = new A();
 
-        a.
+        //a.
     }
 
 }
