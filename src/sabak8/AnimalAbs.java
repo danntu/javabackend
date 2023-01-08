@@ -1,6 +1,13 @@
 package sabak8;
 
+import java.io.BufferedReader;
+
 public class AnimalAbs implements Animal{
+
+    int a;
+    static int f;
+
+
     @Override
     public void move() {
 
@@ -8,6 +15,7 @@ public class AnimalAbs implements Animal{
 
     @Override
     public void jump() {
+        this.move();
 
     }
 
@@ -16,5 +24,15 @@ public class AnimalAbs implements Animal{
 
     }
 
+    public static void main(String[] args) {
 
+
+        AnimalAbs animalAbs1 = new AnimalAbs();
+        System.out.println(animalAbs1);
+
+        AnimalAbs animalAbs2 = new AnimalAbs();
+        System.out.println(animalAbs2);
+
+
+    }
 }

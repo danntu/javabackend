@@ -1,19 +1,7 @@
 package sabak8;
 
-public class Eagle extends AnimalAbs{
-    @Override
-    public void jump() {
+import java.io.Serializable;
 
-    }
+public class Eagle extends AnimalAbs {
 
-    public Eagle() {
-        super();
-        System.out.println();
-
-    }
-
-    @Override
-    public void fly() {
-
-    }
 }
